@@ -11,7 +11,6 @@ module.exports = {
   theme: {
     fontFamily: {
       mono: ['Tengwar Annatar'],
-      // medium: ['Times New Roman'],
     },
     container: {
       center: true,
@@ -70,7 +69,6 @@ module.exports = {
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
       },
-      // FIXME: Тут анимация
       keyframes: {
         'accordion-down': {
           from: { height: '0' },
