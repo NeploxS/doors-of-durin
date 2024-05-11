@@ -1,6 +1,5 @@
 import { ReactNode } from 'react';
 import './App.css';
-// import { ThemeProvider } from './components/ui/theme-provider';
 import { useDoorsOfDurin } from './context/moria/feature/doors-of-durin/ui/hook/useDoorsOfDurin';
 import { DoorsOfDurinPage } from './context/moria/feature/doors-of-durin/ui/pages/DoorsOfDurin';
 import { DoorsOfDurinViewState } from './context/moria/feature/doors-of-durin/ui/pages/DoorsOfDurin/DoorsOfDurinViewState';
@@ -25,12 +24,6 @@ function App() {
   };
 
   return content();
-
-  // return (
-  //   // <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-  //     // {}
-  //   // </ThemeProvider>
-  // );
 }
 
 export default App;
