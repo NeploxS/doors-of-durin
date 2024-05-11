@@ -5,6 +5,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import App from './App';
 import { ThemeProvider } from './components/ui/theme-provider';
 import { About } from './routes/about';
+import { Reference } from './routes/reference';
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "/about",
     element: <About />,
+  },
+  {
+    path: "/reference",
+    element: <Reference />,
   },
 ], { 'basename': '/doors-of-durin' });
 

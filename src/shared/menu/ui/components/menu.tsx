@@ -21,9 +21,9 @@ export function Menu() {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link to="/history">
+          <Link to="/reference">
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              История
+              Справка
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>

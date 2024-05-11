@@ -9,8 +9,8 @@ interface AppLayoutProps {
 
 export const AppLayout: React.FC<AppLayoutProps> = ({ children }) => {
   return (
-    <div className="flex mt-8 items-center flex-col max-w-2xl">
-      <div className="flex justify-between w-full">
+    <div className="flexitems-center flex-col max-w-2xl">
+      <div className="flex justify-between w-full mt-8 mb-16">
         <HoverCard>
           <HoverCardTrigger>
             <Tengwar>

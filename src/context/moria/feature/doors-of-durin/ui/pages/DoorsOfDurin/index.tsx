@@ -23,7 +23,7 @@ export const DoorsOfDurinPage: React.FC<DoorsOfDurinPageProps> = ({
   enter,
 }) => {
   return (
-    <div className="flex h-[100svh] items-center justify-center">
+    <div className="flex items-center justify-center mt-44">
       <div className="flex flex-col gap-16">
         <HoverCard>
           <HoverCardTrigger>
