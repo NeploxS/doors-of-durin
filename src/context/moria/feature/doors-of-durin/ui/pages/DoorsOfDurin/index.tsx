@@ -29,19 +29,6 @@ export const DoorsOfDurinPage: React.FC<DoorsOfDurinPageProps> = ({
           <HoverCardTrigger>
             <Ithildin viewState={viewState.ithildin}>
               <Tengwar>
-                <h3 className="cursor-default text-3xl">2</h3>
-              </Tengwar>
-            </Ithildin>
-          </HoverCardTrigger>
-          <HoverCardContent className="w-90 text-left">
-            Буква <i>"ando"</i> на тенгваре. Означает <i>"дверь"</i> или{' '}
-            <i>"Дурин"</i>
-          </HoverCardContent>
-        </HoverCard>
-        <HoverCard>
-          <HoverCardTrigger>
-            <Ithildin viewState={viewState.ithildin}>
-              <Tengwar>
                 <h3 className="cursor-default text-3xl">
                   q92h y9jjh5 ] y~T5h-
                 </h3>

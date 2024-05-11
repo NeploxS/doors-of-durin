@@ -5,6 +5,7 @@ import { DoorsOfDurinPage } from './context/moria/feature/doors-of-durin/ui/page
 import { DoorsOfDurinViewState } from './context/moria/feature/doors-of-durin/ui/pages/DoorsOfDurin/DoorsOfDurinViewState';
 import { WelcomeToMoriaViewState } from './context/moria/feature/doors-of-durin/ui/pages/WelcomeToMoria/WelcomeToMoriaViewState';
 import { WelcomeToMoria } from './context/moria/feature/doors-of-durin/ui/pages/WelcomeToMoria';
+import { AppLayout } from './shared/layout/ui/components/appLayout';
 
 function App() {
   const { viewState, changeForm, enter } = useDoorsOfDurin();
@@ -23,7 +24,11 @@ function App() {
     }
   };
 
-  return content();
+  return (
+    <AppLayout>
+      {content()}
+    </AppLayout>
+  );
 }
 
 export default App;
