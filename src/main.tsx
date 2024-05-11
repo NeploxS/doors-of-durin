@@ -4,6 +4,7 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import App from './App';
 import { ThemeProvider } from './components/ui/theme-provider';
+import { About } from './routes/about';
 
 const router = createBrowserRouter([
   {
@@ -12,8 +13,8 @@ const router = createBrowserRouter([
   },
   {
     path: "/about",
-    element: <div>Hello world</div>,
-  }
+    element: <About />,
+  },
 ], { 'basename': '/doors-of-durin' });
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
